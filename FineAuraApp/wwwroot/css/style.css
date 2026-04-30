@@ -616,7 +616,7 @@ main > section {
     Video Section
 ==================================================================*/
 .video-bg {
-  background: transparent url("../images/video-bg.jpg") no-repeat scroll center center/cover;
+  background: transparent url("../images/vdo-bg.png") no-repeat scroll center center/cover;
   color: #fff;
   position: relative;
   text-align: center;

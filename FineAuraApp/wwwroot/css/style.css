@@ -296,7 +296,7 @@ main > section {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #079137;
+  background-color: #1db4d6;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -391,6 +391,12 @@ main > section {
   margin-bottom: 25px;
 }
 
+.caption-content h3 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 900;
+  margin-bottom: 25px;
+}
 .caption-content > p {
   display: block;
   font-size: 16px;

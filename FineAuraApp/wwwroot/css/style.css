@@ -622,7 +622,7 @@ main>section {
 }
 
 .service-item p {
-  color: #7e848e;
+  color: #024f5b;
   font-weight: 200;
 }
 
@@ -1072,7 +1072,33 @@ ul.external li a:hover {
   transition: all 0.2s ease 0s;
 }
 
+.social-button-wapp {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.social-button-wapp li a {
+  border: 2px solid #068b2e;
+  border-radius: 50%;
+  color: #068b2e;
+  display: block;
+  height: 90px;
+  line-height: 96px;
+  width: 90px;
+  font-size: 40px;
+  line-height: 90px;
+  transition: all 0.2s ease 0s;
+}
+
 .social-button li a:hover {
+  border: 2px solid #0aa6bd;
+  background: #0aa6bd;
+  color: #fff;
+}
+
+.social-button-wapp li a:hover {
   border: 2px solid #0aa6bd;
   background: #0aa6bd;
   color: #fff;
@@ -1081,6 +1107,10 @@ ul.external li a:hover {
 /*=================================================================
 	Contact
 ==================================================================*/
+#contact {
+  background: #e9f2eb;
+}
+
 .input-field {
   margin-bottom: 10px;
 }
@@ -1252,6 +1282,10 @@ textarea.form-control {
 .footer-content>p {
   color: #ababab;
   font-size: 12px;
+}
+
+.text-justify {
+  text-align: justify;
 }
 
 /*============================================================ 
@@ -1578,4 +1612,14 @@ textarea.form-control {
 
 .width-50 {
   width: 50px;
+}
+
+/* Terms and conditions */
+.terms {
+  background: #e4e9e9;
+}
+
+/* For footer */
+.html {
+  scroll-behavior: smooth;
 }
